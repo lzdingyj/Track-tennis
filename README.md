@@ -1,5 +1,7 @@
 we propose Track-Tennis, an enhanced TrackNet framework with three complementary improvements. A lightweight GhostNet encoder reduces the number of model parameters by 49.8%, providing computational capacity for a spatio-temporal transformer that explicitly captures long-range spatial context and inter-frame temporal dependencies. A bidirectional pyramid fusion decoder further aggregates multi-scale features to improve the localization of fast-moving small objects. Experiments on the TennisTrack dataset demonstrate that Track-Tennis achieves 94.79% accuracy with a 4.18% miss rate, outperforming the original TrackNet by 1.21 percentage points while reducing the parameter count by 39.9%.
 <img width="641" height="389" alt="image" src="https://github.com/user-attachments/assets/4d205eeb-7888-4f79-8b8d-5ede9b546cf6" />
+
+
 Model	Parameters (M)	FLOPs (G)	Reduction vs. Baseline (Params)
 TrackNet_Baseline	11.34	113.80	-
 TrackNet_Ghost	5.69	57.40	49.80%
